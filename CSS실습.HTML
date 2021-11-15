@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="utf-8" />
+    <title>css실습</title>
+    <style>
+        
+        #header{text-align: center;
+        background-color: black;
+        color: white;
+        width: 100%;
+        height: 50px;
+        font-size: 35px;}
+    
+
+        #Links{
+            width: 30%;
+            background-color: rgb(54, 52, 52) ;
+            height: 600px;
+            float: left;
+            text-decoration: none;}
+
+        #main{
+            background-color: burlywood;
+            height: 600px;}
+
+
+        #footer{
+            background-color: black;
+            height: 50px;
+            color: white;
+            font-size: 20px;
+            font-style: italic;
+        }
+        a:link{color:gold;}
+        a:visited{color: green;}
+        a:hover{color:red}
+
+    </style>
+</head>
+<body>
+    <header id="header"><strong>My Blog Page</strong></header>
+
+    <div id="Links"><h1 style="color: rgba(245, 245, 245, 0.63);">&emsp;Links</h1>
+        <ul style="font-size: 20px; 
+                list-style: none;
+                padding-left: 50px;">
+            <li><a href="https://www.w3.org/">W3C</a></li>
+            <li><a href="https://developer.mozilla.org/ko/docs/Mozilla">MOZILLA</a></li>
+            <li><a href="https://htmldog.com/">HTML Dogs</a></li>
+            <li><a href="https://sites.google.com/site/pathfinderd20/pathfinder">안가본 사이트는 노랑</a></li>
+            <br><img src="whale.jpg" width="300" height="250" /><br>
+        </ul>
+    </div>
+
+    <div id="main">
+       
+        <br><section style="font-size: 35px;"><strong>본문1입니다.</strong></section>
+        css 실습과제입니다. 고래사진은 그냥 좋아해서 넣어봤습니다.</br>
+
+        <br><section style="font-size: 35px;"><strong>본문2입니다.</strong></section>
+        이렇게 하는게 맞나..?</br>
+
+        <br><section style="font-size: 35px;"><strong>문제점.</strong></section>
+        링크를 중앙에 정렬하고 싶은데 cneter를 쓰면 앞에있는 점은 가만있고 글씨만 중앙으로 이동한다. 이걸어쩌지?/<br>
+        <br>그냥 padding-left와 표시 지우기를 사용해서 해결했다.</br>
+
+
+
+
+    </div>
+
+    <div id="footer" style="text-align: center;">copyright
+    
+    </div>
+
+
+</body>
+</html>
